@@ -1,0 +1,8 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kaneki5172/leetcode.git",
+  "author": "",
+  "license": "MIT"
+}
