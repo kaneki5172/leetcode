@@ -1,8 +1,24 @@
 {
   "name": "leetcode",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:kaneki5172/leetcode.git",
+  "description": "刷题",
+  "main": "1. Two Sum.js",
+  "devDependencies": {
+    "execa": "^4.0.2",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "start": "node ./scripts/exec.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinytot1/leetcode.git"
+  },
   "author": "",
-  "license": "MIT"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinytot1/leetcode/issues"
+  },
+  "homepage": "https://github.com/tinytot1/leetcode#readme"
 }

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "sourceMap": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    // "module": "AMD",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    // "outFile": "./dist/index.js",
+    "rootDir": "./",   
+  },
+  "exclude": [
+    "node_modules",
+    "dist/",
+  ]
+}
