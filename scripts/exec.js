@@ -12,7 +12,7 @@ const path = require("path");
   } else {
     throw "文件不存在";
   }
-  await execa('tsc', [file, "--allowJs", "--outFile", path.join(__dirname, "../dist/index.js")]);
+  await execa('tsc', [file, "--target", "ESNext", "--allowJs", "--outFile", path.join(__dirname, "../dist/index.js")]);
   const { stdout } = await execa('node', [path.join(__dirname, "../dist/index.js")]);
   //=> 'unicorns'
   console.log(stdout)
